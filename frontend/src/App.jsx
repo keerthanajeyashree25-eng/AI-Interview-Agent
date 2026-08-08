@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import "./App.css";
 
-const API_BASE = "http://127.0.0.1:8000";
+const API_BASE = "https://ai-interview-agent-backend-84ns.onrender.com";
 
 const TOTAL_QUESTIONS = 8;
 
