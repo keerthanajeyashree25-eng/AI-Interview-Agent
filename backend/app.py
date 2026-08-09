@@ -48,6 +48,11 @@ app.add_middleware(
         "http://127.0.0.1:5173",
         "http://localhost:3000",
         "http://127.0.0.1:3000",
+
+        # Vercel frontend
+        "https://ai-interview-agent-ebon-six.vercel.app",
+        "https://ai-interview-agent-git-main-keerthuz.vercel.app",
+        "https://ai-interview-agent-k9iw097qp-keerthuz.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
